@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+
+
+}
+body::before {
+    content: "";
+    background: url('mood-melody.jpg'); /* Replace with your image path */
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: #f2f2f2;
+}
+.centered-and-smaller {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+}
+
+button[type="submit"] {
+    margin-left: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: #f7a2c6;
+    color: white;
+    border-radius: 15px; 
+}
+
+button[type="submit"]:hover {
+    background-color: #f7abba;
+}
+
+#music {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+h1 {
+    font-size: 2em;
+}
+#moodInput {
+    border-radius: 15px;
+    opacity: 0.5;
+}
+#moodForm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#moodForm > div {
+    margin: 0 10px;
+}
+#music {
+    border: 1px solid #ccc;
+    padding: 12px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 10px;
+    background-color: #f2f2f2;
+    opacity: 0.6;
+    display: none;
+    border-radius: 12px;
+    font-size: 1.5em;
+}
