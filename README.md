@@ -1,6 +1,6 @@
 # Project: Mood Melody
 
-*A desktop app that can play music based on the user’s mood: We will use .NET framework to create a desktop app that can analyze the user’s mood from their facial expressions or voice and play music accordingly. Using existing libraries and APIs to help us with the mood analysis and music recommendation, such as OpenCV or Spotify.*
+*A web app that can play music based on the user’s mood: We will use .NET framework to create a web app that can analyze the user’s mood from their facial expressions or voice and play music accordingly. Using existing libraries and APIs to help us with the mood analysis and music recommendation, such as OpenCV or Spotify.*
 ## Used Packages and Modules
 
 - [OpenCV](https://www.geeksforgeeks.org/opencv-python-tutorial/): OpenCV is a Python open-source package used for computer vision, machine learning, and image processing.
