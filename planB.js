@@ -26,7 +26,7 @@ document.getElementById('moodForm').addEventListener('submit', function(event) {
     ],
     seedhemaut: [
       { title: "khata flow", artist: "Seedhe Maut", trackID:"2qb5ASYergjk2qNLvYEQJD" },
-      { title: "lukka chuppi", artist: "Seedhe Maut", trackID:"6DtmY1H3Uo1g6MoD6sKKjm" },
+      { title: "Luka chuppi", artist: "Seedhe Maut", trackID:"6DtmY1H3Uo1g6MoD6sKKjm" },
       { title: "nanchaku", artist: "Seedhe Maut", trackID:"6btegcu44HqquqArljhFxu" },
       { title: "shaktimaan", artist: "Seedhe Maut", trackID:"0DPjmMiDoPiMNPTtorAMeY" },
       { title: "Akatsuki", artist: "Seedhe Maut", trackID:"1Iqn110sncyGBTNEHGnhAU" },
